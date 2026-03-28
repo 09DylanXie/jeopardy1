@@ -48,31 +48,31 @@ st.markdown("""
 @st.cache_data
 def load_data():
     return pd.DataFrame([
-        {"Category": "Animal Kingdom", "Points": 100, "Question": "This 'King of the Jungle' is known for its loud roar and thick mane.", "Answer": "What is a Lion?"},
-        {"Category": "Animal Kingdom", "Points": 200, "Question": "These animals, like frogs and toads, can live both in the water and on land.", "Answer": "What are Amphibians?"},
-        {"Category": "Animal Kingdom", "Points": 300, "Question": "This is the only mammal capable of true, powered flight.", "Answer": "What is a Bat?"},
-        {"Category": "Animal Kingdom", "Points": 400, "Question": "These 'cold-blooded' animals rely on external heat sources to regulate their body temperature.", "Answer": "What are Ectotherms?"},
-        {"Category": "Animal Kingdom", "Points": 500, "Question": "Most animals exhibit this type of symmetry, where the body can be divided into identical left and right halves.", "Answer": "What is Bilateral Symmetry?"},
-        {"Category": "Our Changing Earth", "Points": 100, "Question": "This is the process of water falling from the clouds as rain, snow, or hail.", "Answer": "What is Precipitation?"},
-        {"Category": "Our Changing Earth", "Points": 200, "Question": "This is the name for a scientist who studies the weather.", "Answer": "What is a Meteorologist?"},
-        {"Category": "Our Changing Earth", "Points": 300, "Question": "This is the layer of gas that surrounds the Earth and protects us from the sun's UV rays.", "Answer": "What is the Atmosphere?"},
-        {"Category": "Our Changing Earth", "Points": 400, "Question": "This theory explains how Earth's outer shell is divided into several plates that glide over the mantle.", "Answer": "What is Plate Tectonics?"},
-        {"Category": "Our Changing Earth", "Points": 500, "Question": "This specific type of rock is formed through the cooling and solidification of magma or lava.", "Answer": "What is Igneous rock?"},
-        {"Category": "Plants & Photosynthesis", "Points": 100, "Question": "This part of the plant grows underground and drinks up water.", "Answer": "What are Roots?"},
-        {"Category": "Plants & Photosynthesis", "Points": 200, "Question": "Plants use this green pigment to capture sunlight and make food.", "Answer": "What is Chlorophyll?"},
-        {"Category": "Plants & Photosynthesis", "Points": 300, "Question": "This is the process by which a seed begins to grow into a seedling.", "Answer": "What is Germination?"},
-        {"Category": "Plants & Photosynthesis", "Points": 400, "Question": "These tiny pores on the underside of leaves allow for gas exchange.", "Answer": "What are Stomata?"},
-        {"Category": "Plants & Photosynthesis", "Points": 500, "Question": "This vascular tissue in plants is responsible for transporting water from the roots to the leaves.", "Answer": "What is Xylem?"},
-        {"Category": "Ecology & Habitats", "Points": 100, "Question": "This sandy habitat receives very little rain and is home to camels and cacti.", "Answer": "What is a Desert?"},
-        {"Category": "Ecology & Habitats", "Points": 200, "Question": "This term describes an animal that only eats plants.", "Answer": "What is a Herbivore?"},
-        {"Category": "Ecology & Habitats", "Points": 300, "Question": "This is a community of living organisms interacting with their physical environment.", "Answer": "What is an Ecosystem?"},
-        {"Category": "Ecology & Habitats", "Points": 400, "Question": "This is the position an organism occupies in a food web, such as producer or primary consumer.", "Answer": "What is a Trophic Level?"},
-        {"Category": "Ecology & Habitats", "Points": 500, "Question": "This rule states that only a percentage of energy is transferred from one level to the next.", "Answer": "What is the 10% Rule?"},
-        {"Category": "Conservation & Climate", "Points": 100, "Question": "To help the Earth, people practice the '3 Rs': Reduce, Reuse, and this.", "Answer": "What is Recycle?"},
-        {"Category": "Conservation & Climate", "Points": 200, "Question": "This is the term for a species that is at risk of disappearing forever.", "Answer": "What is Endangered?"},
-        {"Category": "Conservation & Climate", "Points": 300, "Question": "These are non-renewable energy sources, like coal and oil, formed from ancient organic matter.", "Answer": "What are Fossil Fuels?"},
-        {"Category": "Conservation & Climate", "Points": 400, "Question": "This is the variety of life in the world or in a particular habitat.", "Answer": "What is Biodiversity?"},
-        {"Category": "Conservation & Climate", "Points": 500, "Question": "This natural process warms the Earth's surface when gases trap the sun's heat.", "Answer": "What is the Greenhouse Effect?"}
+        {"Category": "Animal Kingdom", "Points": 100, "Question": "This 'King of the Jungle' is known for its loud roar and thick mane. [cite: 1]", "Answer": "What is a Lion? [cite: 1]"},
+        {"Category": "Animal Kingdom", "Points": 200, "Question": "These animals, like frogs and toads, can live both in the water and on land. [cite: 1]", "Answer": "What are Amphibians? [cite: 1]"},
+        {"Category": "Animal Kingdom", "Points": 300, "Question": "This is the only mammal capable of true, powered flight. [cite: 1]", "Answer": "What is a Bat? [cite: 1]"},
+        {"Category": "Animal Kingdom", "Points": 400, "Question": "These 'cold-blooded' animals rely on external heat sources to regulate their body temperature. [cite: 1]", "Answer": "What are Ectotherms? [cite: 1]"},
+        {"Category": "Animal Kingdom", "Points": 500, "Question": "Most animals exhibit this type of symmetry, where the body can be divided into identical left and right halves. [cite: 1]", "Answer": "What is Bilateral Symmetry? [cite: 1]"},
+        {"Category": "Our Changing Earth", "Points": 100, "Question": "This is the process of water falling from the clouds as rain, snow, or hail. [cite: 1]", "Answer": "What is Precipitation? [cite: 1]"},
+        {"Category": "Our Changing Earth", "Points": 200, "Question": "This is the name for a scientist who studies the weather. [cite: 1]", "Answer": "What is a Meteorologist? [cite: 1]"},
+        {"Category": "Our Changing Earth", "Points": 300, "Question": "This is the layer of gas that surrounds the Earth and protects us from the sun's UV rays. [cite: 1]", "Answer": "What is the Atmosphere? [cite: 1]"},
+        {"Category": "Our Changing Earth", "Points": 400, "Question": "This theory explains how Earth's outer shell is divided into several plates that glide over the mantle. [cite: 1]", "Answer": "What is Plate Tectonics? [cite: 1]"},
+        {"Category": "Our Changing Earth", "Points": 500, "Question": "This specific type of rock is formed through the cooling and solidification of magma or lava. [cite: 1]", "Answer": "What is Igneous rock? [cite: 1]"},
+        {"Category": "Plants & Photosynthesis", "Points": 100, "Question": "This part of the plant grows underground and drinks up water. [cite: 1]", "Answer": "What are Roots? [cite: 1]"},
+        {"Category": "Plants & Photosynthesis", "Points": 200, "Question": "Plants use this green pigment to capture sunlight and make food. [cite: 1]", "Answer": "What is Chlorophyll? [cite: 1]"},
+        {"Category": "Plants & Photosynthesis", "Points": 300, "Question": "This is the process by which a seed begins to grow into a seedling. [cite: 1]", "Answer": "What is Germination? [cite: 1]"},
+        {"Category": "Plants & Photosynthesis", "Points": 400, "Question": "These tiny pores on the underside of leaves allow for gas exchange. [cite: 1]", "Answer": "What are Stomata? [cite: 1]"},
+        {"Category": "Plants & Photosynthesis", "Points": 500, "Question": "This vascular tissue in plants is responsible for transporting water from the roots to the leaves. [cite: 1]", "Answer": "What is Xylem? [cite: 1]"},
+        {"Category": "Ecology & Habitats", "Points": 100, "Question": "This sandy habitat receives very little rain and is home to camels and cacti. [cite: 1]", "Answer": "What is a Desert? [cite: 1]"},
+        {"Category": "Ecology & Habitats", "Points": 200, "Question": "This term describes an animal that only eats plants. [cite: 1]", "Answer": "What is a Herbivore? [cite: 1]"},
+        {"Category": "Ecology & Habitats", "Points": 300, "Question": "This is a community of living organisms interacting with their physical environment. [cite: 1]", "Answer": "What is an Ecosystem? [cite: 1]"},
+        {"Category": "Ecology & Habitats", "Points": 400, "Question": "This is the position an organism occupies in a food web, such as producer or primary consumer. [cite: 1]", "Answer": "What is a Trophic Level? [cite: 1]"},
+        {"Category": "Ecology & Habitats", "Points": 500, "Question": "This rule states that only a percentage of energy is transferred from one level to the next. [cite: 1]", "Answer": "What is the 10% Rule? [cite: 1]"},
+        {"Category": "Conservation & Climate", "Points": 100, "Question": "To help the Earth, people practice the '3 Rs': Reduce, Reuse, and this. [cite: 1]", "Answer": "What is Recycle? [cite: 1]"},
+        {"Category": "Conservation & Climate", "Points": 200, "Question": "This is the term for a species that is at risk of disappearing forever. [cite: 1]", "Answer": "What is Endangered? [cite: 1]"},
+        {"Category": "Conservation & Climate", "Points": 300, "Question": "These are non-renewable energy sources, like coal and oil, formed from ancient organic matter. [cite: 1]", "Answer": "What are Fossil Fuels? [cite: 1]"},
+        {"Category": "Conservation & Climate", "Points": 400, "Question": "This is the variety of life in the world or in a particular habitat. [cite: 1]", "Answer": "What is Biodiversity? [cite: 1]"},
+        {"Category": "Conservation & Climate", "Points": 500, "Question": "This natural process warms the Earth's surface when gases trap the sun's heat. [cite: 1]", "Answer": "What is the Greenhouse Effect? [cite: 1]"}
     ])
 
 df = load_data()
@@ -80,7 +80,11 @@ categories = df['Category'].unique()
 
 # --- 3. Session State ---
 if "players" not in st.session_state:
-    st.session_state.update({"players": {}, "answered": [], "current_q": None, "show_answer": False, "final_triggered": False, "winner": None})
+    st.session_state.update({
+        "players": {}, "answered": [], "current_q": None, 
+        "show_answer": False, "final_triggered": False, 
+        "final_q_revealed": False, "final_a_revealed": False, "winner": None
+    })
 
 # --- 4. Sidebar ---
 with st.sidebar:
@@ -97,6 +101,8 @@ with st.sidebar:
     else:
         if st.button("↩️ BOARD"):
             st.session_state.final_triggered = False
+            st.session_state.final_q_revealed = False
+            st.session_state.final_a_revealed = False
             st.rerun()
     if st.button("Reset All"):
         st.session_state.clear()
@@ -115,11 +121,23 @@ with tab1:
 
     elif st.session_state.final_triggered:
         st.title("🏆 FINAL JEOPARDY")
-        st.markdown("### Category: Conservation & Climate")
-        if st.button("REVEAL FINAL QUESTION", use_container_width=True):
-            st.warning("### This natural process warms the Earth's surface when gases trap the sun's heat.")
-            if st.button("REVEAL FINAL ANSWER"):
-                st.success("### What is the Greenhouse Effect?")
+        st.markdown("### Category: Atmospheric Chemistry")
+        
+        if not st.session_state.final_q_revealed:
+            if st.button("REVEAL FINAL QUESTION", use_container_width=True):
+                st.session_state.final_q_revealed = True
+                st.rerun()
+        
+        if st.session_state.final_q_revealed:
+            st.warning("### Identify the specific chemical compound that acts as the primary catalyst for stratospheric ozone depletion and explain the process of 'Radiative Forcing' as it pertains to its global warming potential.")
+            
+            if not st.session_state.final_a_revealed:
+                if st.button("REVEAL FINAL ANSWER"):
+                    st.session_state.final_a_revealed = True
+                    st.rerun()
+            
+            if st.session_state.final_a_revealed:
+                st.success("### Answer: Chlorofluorocarbons (CFCs); Radiative Forcing is the difference between incoming solar radiation and outgoing infrared radiation, caused here by gas trapping long-wave heat.")
                 st.balloons()
     
     elif st.session_state.current_q is None:
@@ -155,7 +173,7 @@ with tab1:
                 if col_correct.button("✅", key=f"c_{name}"):
                     st.session_state.players[name] += q['Points']
                     st.balloons()
-                    time.sleep(1) # Dramatic pause for balloons
+                    time.sleep(1) 
                     st.session_state.answered.append(f"{q['Category']}-{q['Points']}")
                     st.session_state.current_q, st.session_state.show_answer = None, False
                     st.rerun()
